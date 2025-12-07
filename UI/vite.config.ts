@@ -4,7 +4,7 @@ import path from "path";
 import { componentTagger } from "lovable-tagger";
 
 export default defineConfig(({ mode }) => ({
-  base: "/RAG_AI_Assistant/",   // <-- ADD THIS LINE
+  base: "/RAG_AI_Assistant/",   // REQUIRED FOR GITHUB PAGES
   server: {
     host: "::",
     port: 8080,
