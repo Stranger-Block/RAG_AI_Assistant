@@ -13,7 +13,7 @@ export interface ChatResponse {
 }
 
 const DEFAULT_SETTINGS: ChatSettings = {
-  baseUrl: "https://impermeably-pseudostigmatic-nubia.ngrok-free.dev/",
+  baseUrl: "https://impermeably-pseudostigmatic-nubia.ngrok-free.dev",
   topK: 3,
 };
 
