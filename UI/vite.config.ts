@@ -15,8 +15,8 @@ export default defineConfig(({ mode }) => ({
       "@": path.resolve(__dirname, "./src"),
     },
   },
-  base: '/RAG_AI_Assistant/',
-   build: {
-    outDir: 'docs',
+  build: {
+    outDir: '../docs',  
+    emptyOutDir: true,
   },
 }));
