@@ -16,4 +16,7 @@ export default defineConfig(({ mode }) => ({
     },
   },
   base: '/RAG_AI_Assistant/',
+   build: {
+    outDir: 'docs',
+  },
 }));
